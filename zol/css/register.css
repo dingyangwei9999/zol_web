@@ -1,0 +1,295 @@
+*{margin: 0;padding: 0;outline: none;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+body{
+	background-color: #FAFAFA;
+	 font: 12px/1.5 Arial;
+    color: #333;
+}
+.content{
+    padding: 0 0 20px;
+    border: 1px solid #e6e6e6;
+    width: 980px;
+    margin: auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+.title{
+	padding: 16px 0 16px 90px;
+    background: #fafafa;
+    font: 18px/28px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+    color: #999;
+}
+
+.reg_area{
+	float: left;
+	padding: 30px 0 0 89px;
+    width: 500px;
+}
+.reg_area ul{
+	height: 39px;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+.reg_area ul li{
+	float: left;
+    position: relative;
+    margin: 0 -1px;
+    width: 250px;
+    border: 1px solid #e6e6e6;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #e02d2d;
+    /*background: #fafafa;*/
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.phone_reg{
+	color: #c00;
+    line-height: 36px;
+    font-size: 18px;
+}
+.main_reg{
+	float: left;
+    padding: 30px 0 0 0;
+    width: 500px;
+}
+.reg-form {
+    position: relative;
+    margin: 0 0 30px;
+    padding: 0 0 0 83px;
+    zoom: 1;
+    overflow: hidden;
+}
+.reg-form em{
+	padding: 0 7px 0 0;
+    font-size: 12px;
+    font-family: "Simsun";
+    color: #f30;
+}
+.reg-form .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83px;
+    font: 14px/40px "Arial";
+    text-align: right;
+    color: #666;
+}
+
+.reg-form .text{
+	float: left;
+	display: block;
+    margin: 0 10px 0 0;
+    padding: 8px 5px;
+    width: 278px;
+    height: 22px;
+    border: 1px solid #ccc;
+    font-size: 8px;
+}
+.reg-form .text2{
+	float: left;
+	display: block;
+    margin: 0 10px 0 0;
+    padding: 8px 5px;
+    width: 178px;
+    height: 22px;
+    border: 1px solid #ccc;
+    font-size: 8px;
+
+}
+.reg-form a{
+	display: block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    font:12px/40px "Arial";
+}
+.reg-form a:hover{
+	text-decoration: underline;
+	color: #DC2E2E;
+
+}
+
+.reg-form .wrong-tip{
+	position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    color: #ff3333;
+    background-position: -155px -184px;
+    white-space: nowrap;
+}
+.reg-form .right-tip{
+    position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    background-position: -155px -184px;
+    white-space: nowrap;
+    color: #228012;
+    display: none;
+    /*background: url(https://login.zol.com/image/login-bg.png) no-repeat;*/
+    /*background-position: -155px -162px;*/
+}
+
+.reg-form .uselessnum{
+    position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    color: #ff3333;
+    background-position: -155px -184px;
+    white-space: nowrap;
+    display: none;
+}
+.reg-form .hadnum{
+    position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    color: #ff3333;
+    background-position: -155px -184px;
+    white-space: nowrap;
+    display: none;
+}
+.psw_righttip{
+    color: #228012;
+    position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    background-position: -155px -184px;
+    white-space: nowrap;
+    display: none;
+
+}
+.psw_wrongtip{
+    position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    color: #ff3333;
+    background-position: -155px -184px;
+    white-space: nowrap;
+    display: none;
+}
+.conpsw_righttip{
+    color: #228012;
+    position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    background-position: -155px -184px;
+    white-space: nowrap;
+    display: none;
+
+}
+.conpsw_wrongtip{
+    position: absolute;
+    top: 0;
+    left: 383px;
+    padding: 0 0 0 20px;
+    font: 12px/40px "Arial";
+    color: #ff3333;
+    background-position: -155px -184px;
+    white-space: nowrap;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.reg-form .yanzhengma{
+	display: block;
+    margin: 0 10px 0 0;
+    padding: 8px 5px;
+    width: 100px;
+    height: 22px;
+    border: 1px solid #ccc;
+	float: left;
+    text-align: center;
+}
+
+.agreement{
+	display: block;
+    padding: 0 0 0 83px;
+    height: 32px;
+    font: 12px/32px "Arial";
+    color: #999;
+	}    
+#agreement-choose{
+	/*display: inline-block;*/
+	overflow: hidden;
+	width: 14px;
+	height: 14px;
+}
+
+
+#reg_btn{
+	display: block;
+    margin: 20px 0 0 83px;
+    width: 290px;
+    height: 40px;
+    font: bold 14px/40px "Arial";
+    color: #fff;
+    text-align: center;
+    border: 0 none;
+   background-color: #DC2E2E;
+    cursor: pointer;
+}
+/*#reg_btn:hover{
+    cursor: pointer;
+}
+*/
+
+
+
+
+.fast_login{
+	float: right;
+    margin: 30px 0 0;
+    padding: 0 80px 0 25px;
+    width: 170px;
+    border-left: 1px solid #f5f5f5;
+}
+.fast_login_list a {
+    display: block;
+    margin: 15px 0 0;
+    width: 170px;
+    height: 36px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    /*text-indent: -9999em;*/
+    /*overflow: hidden;*/
+    /*zoom: 1;*/
+}
+.fast_login p a:hover{
+	text-decoration: underline;
+	color: #DC2E2E;
+
+}
+
+
+.footer{
+	height: 30px;
+	margin-top: 70px;
+	padding: 12px 0 25px;
+    border-top: 1px solid #dcdcdc;
+}

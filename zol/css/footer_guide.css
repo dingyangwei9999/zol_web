@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+.footer_guide1{
+	height: 180px;
+    border-top: 1px solid #d9d9d9;
+    margin-top: 20px;
+}
+.guide_area{
+	width: 990px;
+    margin: 0 auto;
+    padding-top: 19px;
+    /*border-top: 1px solid #d9d9d9;*/
+    overflow: hidden;
+}
+.guide_area dl{
+	float: left;
+	width: 160px;
+}
+.guide_area dl dt{
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+    font-size: 14px;
+}
+.guide_area dl dd{
+	margin-bottom: 10px;
+    color: #666;
+    font-size: 10px;
+}
+.guide_area dl dd a{
+	color: #666;
+	height: 10px;
+	line-height: 10px;
+	font-size: 10px;
+}
+.sina{
+    height: 17px;
+    background: url(../images/sina.png) no-repeat left center;
+    padding-left: 26px;
+}
+.guide_area dl dd a:hover{
+	color: #c00;
+    text-decoration: underline;
+}
+.zol_erweima{
+    width: 130px;
+    float: left;
+    margin-left: 12px;
+    text-align: center;
+}
+.erweima_pic{
+	margin: -6px 0 4px;
+}
+.zol_erweima p img{
+	height: 106px;
+	width: 106px;
+}
+.zol_erweima p{
+	font-size: 12px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册界面</title>
+	<link rel="stylesheet" href="../css/login_header_footer.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<script src="../js/register_url.js"></script>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<a href="">
+					<img src="../images/login_logo.png" alt="">
+				</a>
+				<p>中关村在线旗下网上商城</p>
+			</div>
+			<div class="tip">还没有ZOL商城账号？<a href="">立即注册</a>
+			</div>
+		</div>
+		<div class="content">
+			<div class="title">30秒快速注册，加入ZOL商城</div>
+			<div>
+				<div class="reg_area">
+					<ul>
+						<li>
+							<span class="phone_reg">用手机号注册</span>
+						</li>
+					</ul>
+					<div class="main_reg">
+						<div class="reg-form">
+							<div class="label">
+								<em class="xh">*</em>手机号：
+							</div>
+							<input type="text" class="text" id="check-phonenum" placeholder="请填写手机号码">
+							<i class="right-tip">可使用</i>
+							<i class="uselessnum">手机号不合法</i>
+							<i class="hadnum">手机号已存在</i>
+							<i class="wrong-tip">请填写手机号码</i>
+							
+						</div>
+						<div class="reg-form">
+							<div class="label">
+								<em class="xh">*</em>验证码：
+							</div>
+							<input type="text" class="text2" id="check-picyanzhengma" placeholder="请填写图片验证码">
+							<span class="yanzhengma">12345(测试用)</span>
+							<a href="">换一张</a>
+						</div>
+						<div class="reg-form">
+							<div class="label">
+								<em class="xh">*</em>验证码：
+							</div>
+							<input type="text" class="text2" id="check-phoneyanzhengma" placeholder="请填写手机号码后获取验证码">
+							<span class="yanzhengma">12345(测试用)</span>
+						</div>
+						<div class="reg-form">
+							<div class="label">
+								<em class="xh">*</em>密码：
+							</div>
+							<input type="password" class="text" id="check-password" placeholder="6-16位字母和数字、下划线的组合，不可用特殊字符">
+							<i class="psw_righttip">可使用</i>
+							<i class="psw_wrongtip">密码不合法</i>
+
+							
+						</div>
+						<div class="reg-form">
+							<div class="label">
+								<em class="xh">*</em>确认密码：
+							</div>
+							<input type="password" class="text" id="confirm-password" placeholder="再次输入密码">
+							<i class="conpsw_righttip">正确</i>
+							<i class="conpsw_wrongtip">两次输入不一致</i>
+							
+						</div>
+						<div class="agreement">
+							<input type="checkbox" id="agreement-choose">   同意
+							<a href="">《商城用户协议》</a>
+							<a href="">《隐私权说明》</a>
+						</div>
+						<div id="reg_btn">注册</div>
+					</div>
+				</div>
+				<div class="fast_login">
+					<p>
+						如果您已经注册，请 <a href="">直接登录</a>或者用以下方式登录：
+					</p>
+					<div class="fast_login_list">
+						<a href="" class="weixin">微信登录</a>
+						<a href="" class="weixin">新浪微博登录</a>
+						<a href="" class="weixin">腾讯QQ登录</a>
+						<a href="" class="weixin">支付宝账号登录</a>
+						<a href="" class="weixin">百度账号登录</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="wrapper">
+			<div class="about">
+				<a href="">关于ZOL商城</a> |
+				<a href="">联系我们</a>	|
+				<a href="">帮助中心</a>
+			</div>
+			<div class="copyright">2017. 中关村在线 版权所有</div>
+		</div>
+	</div>
+</body>
+</html>

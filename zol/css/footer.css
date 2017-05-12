@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+.main{
+	width: 990px;
+	margin: 0 auto;
+}
+
+.footer{
+	display: block;
+	color: #333;
+}
+.about{
+	float: left;
+}
+.copyright{
+	float: right;
+}
+.wrapper{
+	width: 990px;
+	margin: 0 auto;
+}
+.footer a{
+	color: #666666;
+	margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #c00;
+    text-decoration: underline;
+
+}

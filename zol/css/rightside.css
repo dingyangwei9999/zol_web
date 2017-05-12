@@ -1,0 +1,179 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+.rightside{
+    position: fixed;
+    top: 0;
+    /*right: -237px;*/
+    right: 0;
+    /*width: 100px;*/
+    z-index: 1800;
+    height: 100%;
+    background: yellow;
+    color: #333;
+}
+.rightside_tab {
+    position: absolute;
+    top: 0;
+    left: -37px;
+    width: 37px;
+    height: 100%;
+    background: #2d2d2d;
+    z-index: 1;
+}
+.rightside_main{
+    position: relative;
+    width: 240px;
+    height: 100%;
+    background: #ededed;
+    z-index: 10;
+}
+
+.rightside_tabbox{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: -250px 0 0;
+    width: 37px;
+    height: 266px;
+}
+.rightside_tabbox>div{
+    position: relative;
+    zoom: 1;
+    margin: 0 0 20px;
+    background-color: #2d2d2d;
+}
+.rightside_tabbox>div>div{
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.rightside_tabbox>div>p{
+    color: #fff;
+    text-align: center; 
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.rightside_tabbox>div:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.dingdan_ico{
+        background: url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+        background-position: 0 0;
+}
+.zuji_ico{
+        background: url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+        background-position: 0 -74px;
+}
+.gouwuche_ico{
+        background: url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+        background-position: 0 -111px;
+}
+/*rightside_main*/
+.rightside_title{
+    position: relative;
+    zoom: 1;
+    height: 50px;
+}
+.rightside_title_text{
+    font: 16px/50px "Microsoft YaHei";
+    text-align: center;
+}
+.rightside_close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37px;
+    height: 50px;
+    background: url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+    background-position: 0 -367px;
+    cursor: pointer;
+}
+.rightside_links{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font: 12px/50px SimSun;
+}
+.product_content{
+    padding: 0 5px 0 0;
+}
+
+.product_content ul li{
+    position: relative;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    background: #fff;
+}
+.rs_pro_name {
+    padding: 0 10px;
+    font: 12px/26px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    background: #f8f8f8;
+    color: #c00;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.rs_pro_detail{
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.rs_pro_pic{
+    float: left;
+    width: 42px;
+    height: 42px;
+    background-color: pink;
+}
+
+.rs_pro_num{
+    float: left;
+    width: 100px;
+    font: 12px/42px Verdana;
+    text-align: center;
+}
+.rs_pro_detail em{
+    float: left;
+    width: 10px;
+    font: 12px/42px Verdana;
+    text-align: right;
+}
+.rs_pro_price{
+    float: left;
+    width: 20px;
+    font: 12px/42px Verdana;
+    text-align: left;
+
+}
+.rs_total{
+    overflow: hidden;
+    padding-right: 20px;
+}
+.rs_total div{
+    float: right;
+}
+.rs_totalprice{
+    font-weight: bold;
+    color: #c00;
+}
+
+.jiesuan {
+    overflow: hidden;
+}
+.jiesuan a{
+    float: right;
+    border-radius: 2px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    background: #c00;
+    color: #fff;
+    text-align: center;
+}
+.jiesuan a:hover{
+    background-color: #b1191a;
+    text-decoration: none;
+}

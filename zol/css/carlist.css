@@ -1,0 +1,148 @@
+*{margin: 0;padding: 0;font: 12px/1.5 Arial;}
+ul,li{list-style: none;}
+a{text-decoration: none; }
+
+main{
+	/*display: block;*/
+	width: 1000px;
+    margin: 0 auto;
+}
+/*.wrapper{
+	display: block;
+}*/
+.top{
+	width: 100%;
+	background-color: #F5F5F5;
+    border-bottom: 1px solid #e6e6e6;
+	
+} 
+.topbar{
+	width: 900px;
+    margin: 0 auto;
+}
+header{
+	margin-top: 10px;
+}
+.carlist{
+    min-height: 500px;
+    width: 1000px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    padding: 50px 50px;
+}
+
+.carlist>ul{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 900px;
+    height: 80px;
+    background-color: #e6e6e6;
+
+}
+.carlist>ul li{
+    float: left;  
+    height: 80px;
+    line-height: 80px;
+    min-width: 100px;
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 16px; 
+    font-weight: bold; 
+}
+.pro_info{
+    width: 432px;
+}
+
+#carList ul{
+    margin-top: 10px;
+}
+#carList ul li{
+    overflow: hidden;
+    border: 2px solid skyblue;
+}
+#carList ul li img,#carList ul li h4,#carList ul li p{
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    float: left;
+
+    /*margin-right: 20px;*/
+    /*width: 100px;*/
+}
+#carList ul li span{
+    float: left;   
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    width: 100px;
+    padding: 0 20px;
+    text-align: center;
+}
+ul li span:hover{
+    cursor: pointer;
+    color: #c00;
+}
+#carList ul li p{
+    color:#c00;
+    width: 100px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+
+.clear_carlist{
+    overflow: hidden;
+    height: 60px;
+    padding: 15px 0;
+}
+
+.clear_carlist a{
+    float: right;
+    /*height: 40px;*/
+    line-height: 60px;
+    font-size: 20px;
+}
+.clear_carlist a:hover{
+    cursor: pointer;
+    color:#c00;
+    text-decoration: none;
+}
+.total_money{
+    overflow: hidden;
+    height: 40px;
+    /*padding: 5px 0;*/
+}
+.total_money h2{
+    float: right;
+    /*height: 40px;*/
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.total_money h2 em{
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #c00;
+}
+.final_submit{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.sub_btn {
+    float: right;
+    /*margin: 0 20px 0 0;*/
+    border-radius: 2px;
+    font: 18px/50px "Microsoft YaHei";
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    background: #c00;
+}
+.sub_btn:hover{
+    background-color: #b1191a;
+    text-decoration: none;
+    cursor: pointer;    
+}
